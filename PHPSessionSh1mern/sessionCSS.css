@@ -1,0 +1,47 @@
+.quiz_form{
+    width: fit-content;
+    font-size: 1.7vw;
+    padding: .3em;
+    margin: 20px ;
+    color:rgba(26, 24, 24, 1);
+    background-color: #8c1414;
+    font-family: 'Courier New', Courier, monospace;
+    border-width:3px;
+    border-color:rgba(26, 1, 101, 0.688) ;
+}
+.button_next
+{
+    background-color:rgba(13, 5, 54, 0.686) ;
+    color:rgba(232, 7, 29, 0.554);
+    font-size: 1.7vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    margin-right: 15px;
+    line-height: 32px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 5px;
+
+    position: relative;
+    top: 4px;
+}
+
+input[type="radio"]:checked {
+    border: 6px solid black;
+}
+
+
